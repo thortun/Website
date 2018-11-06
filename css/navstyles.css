@@ -1,0 +1,21 @@
+.button:hover{
+    background-color:red;
+}
+.nav-button, .nav-header{
+    background-color:#e6f9ff;
+    color:inherit;
+    float:left;
+    width:100%;
+    padding:10px;
+    display:block;
+    text-decoration:none;
+}
+.nav-button:hover{
+    background-color:#aaa;
+}
+
+.nav-header{
+    font-size:20px;
+    font-weight:bold;
+    text-overflow: ellipsis;
+}
