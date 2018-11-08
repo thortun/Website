@@ -1,14 +1,20 @@
 <html>
 <head>
-    <?php include('/globalheader.html'); ?>
+    <?php 
+	$path=$_SERVER['DOCUMENT_ROOT'];
+	$path.='/globalheader.html';
+	include_once($path);
+    ?>
     <link rel="stylesheet" href="/css/mystyles.css">
     <link rel="stylesheet" href="/css/navstyles.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Data</title>
 </head>
 <body>
-<h1>Data</h1>
 
+<div>
+<div class="top-nav-bar">
+</div>
 <div class="left-section">
     <?php include("navhydr.html"); ?> <!--Navigation file --!>
 </div>
@@ -21,7 +27,9 @@
         <h3>Water</h3>
         <p>
             This is the average water consumed by the plants. It is measured by weighing the plants every 10 minutes to get the weight-gradient. Evaporation should also be taken into account.
+        <div style="text-align:center;">
         <img src="foo.png" style="max-width:100%;max-height:100%"></img>
+        </div>
     </div>
     <div id='Temperature' class="tabcontent">
         <h3>Temperature</h3>
@@ -29,6 +37,7 @@
             Varying temperature of the globe!
         </p>
     </div>
+</div>
 </div>
 <script>
 function openTab(evt, tabName) {

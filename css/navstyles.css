@@ -9,6 +9,7 @@
     padding:10px;
     display:block;
     text-decoration:none;
+    font-family:verdana;
 }
 .nav-button:hover{
     background-color:#aaa;
@@ -18,4 +19,8 @@
     font-size:20px;
     font-weight:bold;
     text-overflow: ellipsis;
+}
+.top-nav-bar{
+    padding:40px;
+    background-color:#aaa;
 }
