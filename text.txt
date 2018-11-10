@@ -1,2 +1,1 @@
-This is a text file
-remember to read it very well because it will be very important later!
+Welcome to this part of the internet. It is a very kind place to be. In this place we have <b>bold</b> text, some is <i>italic</i> (but not italian).

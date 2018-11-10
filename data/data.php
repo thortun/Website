@@ -22,6 +22,7 @@
     <div class="tab">
         <button class="tablinks" onclick="openTab(event, 'Water')">Water</button>
         <button class="tablinks" onclick="openTab(event, 'Temperature')">Temp.</button>
+        <button class="tablinks" onclick="openTab(event, 'Distance')">Dist.</button>
     </div>
     <div id='Water' class="tabcontent">
         <h3>Water</h3>
@@ -36,6 +37,9 @@
         <p>
             Varying temperature of the globe!
         </p>
+    </div>
+    <div id='Distance' class="tabcontent">
+        Distance
     </div>
 </div>
 </div>

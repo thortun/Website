@@ -7,12 +7,13 @@
     float:left;
     width:100%;
     padding:10px;
-    display:block;
+    display:inline-block;
     text-decoration:none;
     font-family:verdana;
+    transition:0.3s;
 }
 .nav-button:hover{
-    background-color:#aaa;
+    background-color:#426ef4;
 }
 
 .nav-header{
