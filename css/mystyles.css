@@ -50,7 +50,7 @@ div.right-section{
 }
 /* Change background color of buttons on hover */
 .tab button:hover {
-    background-color: #ddd;
+    background-color:#e6f9ff;
 }
 /* Create an active/current tablink class */
 .tab button.active {
